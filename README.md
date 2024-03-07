@@ -14,18 +14,29 @@ After installing the add-on: a search listings page where you can see the (1) ac
 
 Cheers and happy listening.
 
+# LINKS:
+
 FIREFOX: (pending approval) https://addons.mozilla.org/en-US/firefox/addon/devirtualizeaudible/
-
-Built with:
-
-```
-bsdtar -a -cvf firefox.zip LICENSE PRIVACY -C `pwd`/src/firefox/ manifest.json -C `pwd`/src/common/js devirtualizeAudible.js -C `pwd`/src/common icons
-```
 
 CHROME: (pending approval) https://chromewebstore.google.com/detail/fegkpndgbjchmippoedipimhnedijfla/
 
-Built with:
+# BUILD:
+
+## Firefox:
 
 ```
-bsdtar -a -cvf chrome.zip LICENSE PRIVACY -C `pwd`/src/chrome/ manifest.json devirtualizeAudible.html -C `pwd`/src/common/js devirtualizeAudible.js -C `pwd`/src/common icons
+mkdir -p dist
+cp -R src/firefox/ dist
+cp -R src/common/* dist/firefox
+bsdtar -a -cvf dist/firefox.zip LICENSE PRIVACY -C `pwd`/dist/firefox/ js icons manifest.json
+
+```
+
+## Chrome:
+
+```
+mkdir -p dist
+cp -R src/chrome/ dist
+cp -R src/common/* dist/chrome
+bsdtar -a -cvf dist/chrome.zip LICENSE PRIVACY -C `pwd`/dist/chrome/ js icons html manifest.json
 ```
