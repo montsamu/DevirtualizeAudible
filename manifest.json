@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "DevirtualizeAudible",
+  "version": "1.0",
+
+  "description": "Removes 'Virtual Voice' narrations from product listings at Audible.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.audible.com/*"],
+      "js": ["devirtualizeAudible.js"]
+    }
+  ]
+}
+
