@@ -5,7 +5,7 @@
 
   "description": "Removes 'Virtual Voice' narrations from product listings at Audible.",
   "action" : {
-    "default_icon": "icons/border-48.png",
+    "default_icon": "icons/Devirtualizer.png",
     "default_popup": "devirtualizeAudible.html"
   },
   "content_scripts": [

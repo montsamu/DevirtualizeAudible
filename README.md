@@ -16,4 +16,16 @@ Cheers and happy listening.
 
 FIREFOX: (pending approval) https://addons.mozilla.org/en-US/firefox/addon/devirtualizeaudible/
 
+Built with:
+
+```
+bsdtar -a -cvf firefox.zip -C `pwd`/src/firefox/ manifest.json -C `pwd`/src/common/js devirtualizeAudible.js -C `pwd`/src/common icons
+```
+
 CHROME: (pending approval) https://chromewebstore.google.com/detail/fegkpndgbjchmippoedipimhnedijfla/
+
+Built with:
+
+```
+bsdtar -a -cvf chrome.zip -C `pwd`/src/chrome/ manifest.json devirtualizeAudible.html -C `pwd`/src/common/js devirtualizeAudible.js -C `pwd`/src/common icons
+```
