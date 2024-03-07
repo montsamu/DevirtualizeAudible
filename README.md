@@ -14,6 +14,6 @@ After installing the add-on: a search listings page where you can see the (1) ac
 
 Cheers and happy listening.
 
-FIREFOX: https://addons.mozilla.org/en-US/firefox/addon/devirtualizeaudible/
+FIREFOX: (pending approval) https://addons.mozilla.org/en-US/firefox/addon/devirtualizeaudible/
 
-CHROME: (pending approval)
+CHROME: (pending approval) https://chromewebstore.google.com/detail/fegkpndgbjchmippoedipimhnedijfla/
