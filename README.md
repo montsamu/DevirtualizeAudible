@@ -14,10 +14,6 @@ removal message to let you know the search results have been filtered:
 
 ![After installing the add-on: a search listings page where you can see the (1) actual human-narrated title.](screenshots/Screenshot%202024-03-08%20at%2008-49-04%20Science%20Fiction%20&%20Fantasy%20Audiobooks%20in%20English%20Audible.com%201280x800.png)
 
-Version 1.0.0 screenshot, before the removal message was added:
-
-![Version 1.0.0 screenshot, without the removal message.](screenshots/Screenshot%202024-03-07%20at%2012-54-17%20Science%20Fiction%20&%20Fantasy%20Audiobooks%20in%20English%20Audible.com%201280x800.png)
-
 At the time of this writing (March 2024) here is the sad state of affairs when trying to actually find an audiobook narrated by a human:
 
 * Of the latest 100 new titles in science fiction and fantasy, only 11 are narrated by actual human beings
