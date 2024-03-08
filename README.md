@@ -30,7 +30,7 @@ Cheers and happy listening.
 
 FIREFOX: (pending approval) https://addons.mozilla.org/en-US/firefox/addon/devirtualizeaudible/
 
-CHROME: (pending approval) https://chromewebstore.google.com/detail/fegkpndgbjchmippoedipimhnedijfla/
+CHROME/EDGE: (pending approval) https://chromewebstore.google.com/detail/fegkpndgbjchmippoedipimhnedijfla/
 
 # BUILD:
 
@@ -44,7 +44,9 @@ bsdtar -a -cvf dist/firefox.zip LICENSE PRIVACY -C `pwd`/dist/firefox/ js icons 
 
 ```
 
-## Chrome:
+Download at [downloads/DevirtualizeAudible-ff-1.0.1.zip](downloads/DevirtualizeAudible-ff-1.0.1.zip) to try out in Developer mode. For Firefox, this means navigating to "about:debugging", clicking "This Firefox", and clicking "Load Temporary Add-on". (This has to be repeated each restart of Firefox until you can download it from the official marketplace.)
+
+## Chrome/Edge:
 
 ```
 mkdir -p dist
@@ -53,4 +55,4 @@ cp -R src/common/* dist/chrome
 bsdtar -a -cvf dist/chrome.zip LICENSE PRIVACY -C `pwd`/dist/chrome/ js icons html manifest.json
 ```
 
-(Screenshots edited by Gimp to crop to 1280x800, starting at 250x150.)
+Download at [downloads/DevirtualizeAudible-chrome-1.0.1.zip](downloads/DevirtualizeAudible-chrome-1.0.1.zip) to try out in Developer mode. For Edge, this means extracting the ZIP to a folder, navigating to "edge://extensions", selecting the "Developer mode" slider, and clicking "Load unpacked" and selecting the folder containing the extension files. (This will generate a warning on each restart of Edge until you can download it from the official marketplace.)
