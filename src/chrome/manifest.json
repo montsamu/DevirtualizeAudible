@@ -10,7 +10,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://*.audible.com/search*", "*://*.audible.com/newreleases*"],
+      "matches": ["*://*.audible.com/*"],
       "js": ["js/devirtualizeAudible.js"]
     }
   ]

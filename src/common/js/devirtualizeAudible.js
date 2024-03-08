@@ -1,12 +1,17 @@
-currentlyRemoving = false; narratorLabels = document.getElementsByClassName("narratorLabel"); narratorLabelsClone = [...narratorLabels]; for (i=0;i<narratorLabelsClone.length;i++) {
-  if(narratorLabelsClone[i].textContent.trim().match(/^Narrated by:( |\n)*Virtual Voice/)) {
-    if (currentlyRemoving ) {
+if ( -1 != ["/newreleases","/search"].indexOf(new URL(document.URL).pathname) ) {
+  removedByDevirtualizerText = document.createTextNode("VIRTUAL VOICE TITLE(S) REMOVED BY DEVIRTUALIZER");
+  removedByDevirtualizerStrike = document.createElement("strike");
+  removedByDevirtualizerStrike.appendChild(removedByDevirtualizerText);
+  removedByDevirtualizerParagraph = document.createElement("p");
+  removedByDevirtualizerParagraph.appendChild(removedByDevirtualizerStrike);
+
+  currentlyRemoving = false; narratorLabels = document.getElementsByClassName("narratorLabel"); narratorLabelsClone = [...narratorLabels]; for (i=0;i<narratorLabelsClone.length;i++) {
+    if(narratorLabelsClone[i].textContent.trim().match(/^Narrated by:( |\n)*Virtual Voice/)) {
       narratorLabelsClone[i].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.remove();
-    } else {
-      currentlyRemoving = true;
-      narratorLabelsClone[i].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.setHTMLUnsafe(`<li class="bc-list-item productListItem"><div class="bc-row-responsive"><div><p><strike>REMOVED VIRTUAL VOICE TITLE(S)</strike></p><br/><br/></div><div class="bc-divider bc-divider-secondary"><p/></div></div></li>`);
+      if (!currentlyRemoving ) {
+        currentlyRemoving = true;
+        document.getElementsByClassName("resultsSummarySubheading")[0].appendChild(removedByDevirtualizerParagraph);
+      }
     }
-  } else {
-    currentlyRemoving = false;
   }
 }
