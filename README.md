@@ -38,9 +38,15 @@ removal message to let you know the search results have been filtered:
 
 ## LINKS
 
-FIREFOX: (1.0.1 approved!) https://addons.mozilla.org/en-US/firefox/addon/devirtualizeaudible/
+FIREFOX: (1.0.1 approved, 1.0.2 pending) https://addons.mozilla.org/en-US/firefox/addon/devirtualizeaudible/
 
-CHROME/EDGE: (1.0.0 pending approval) https://chromewebstore.google.com/detail/fegkpndgbjchmippoedipimhnedijfla/
+CHROME/EDGE: (1.0.0 pending) https://chromewebstore.google.com/detail/fegkpndgbjchmippoedipimhnedijfla/
+
+## VERSION HISTORY
+
+* 1.0 - Initial release which silently removed titles without a message
+* 1.0.1 - Added a generic removal message without a count
+* 1.0.2 -- Includes count of elements removed and some basic sanity checks before actions
 
 ## BUILD/TEST
 
