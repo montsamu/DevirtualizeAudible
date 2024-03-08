@@ -18,6 +18,15 @@ Version 1.0.0 screenshot, before the removal message was added:
 
 ![Version 1.0.0 screenshot, without the removal message.](Screenshot%202024-03-07%20at%2012-54-17%20Science%20Fiction%20&%20Fantasy%20Audiobooks%20in%20English%20Audible.com%201280x800.png)
 
+At the time of this writing (March 2024) here is the sad state of affairs when trying to actually find an audiobook narrated by a human:
+
+* Of the latest 100 new titles in science fiction and fantasy, only 11 are narrated by actual human beings
+* Of the latest 100 new titles in mystery and trillers, only 17 are narrated by actual human beings
+* Of the latest 100 new titles in romance, only 19 are narrated by actual human beings
+* Of the latest 100 new titles in genre fiction, only 15 are narrated by actual human beings
+* Of the latest **200** new titles in literature and fiction, only 27 (out of **200**) are narrated by actual human beings
+
+I just got tired and tired of having to scroll through all of this garbage being shoveled onto us.
 
 Cheers and happy listening.
 
