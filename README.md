@@ -28,7 +28,7 @@ Cheers and happy listening.
 
 # LINKS:
 
-FIREFOX: (pending approval) https://addons.mozilla.org/en-US/firefox/addon/devirtualizeaudible/
+FIREFOX: (1.0.1 approved!) https://addons.mozilla.org/en-US/firefox/addon/devirtualizeaudible/
 
 CHROME/EDGE: (pending approval) https://chromewebstore.google.com/detail/fegkpndgbjchmippoedipimhnedijfla/
 
