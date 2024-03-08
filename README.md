@@ -4,7 +4,7 @@ results and removes the ones which are "narrated" by a "Virtual Voice". This may
 results if the entire page was "narrated" by "Virtual Voice" titles. Just go on to the next page and see one or two
 actual audiobooks amongst the growing virtual horde.
 
-Before installing the add-on: a search listings page which as "Virtual Voice" "narrations" burying any actual
+Before installing the add-on: a search listings page which has "Virtual Voice" "narrations" burying any actual
 audiobooks:
 
 ![Before installing the add-on: a search listings page which as "Virtual Voice" "narrations" burying any actual audiobooks.](screenshots/Screenshot%202024-03-07%20at%2012-54-58%20Science%20Fiction%20&%20Fantasy%20Audiobooks%20in%20English%20Audible.com%201280x800.png)
