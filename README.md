@@ -40,7 +40,7 @@ removal message to let you know the search results have been filtered:
 
 FIREFOX: (1.0.2 published) https://addons.mozilla.org/en-US/firefox/addon/devirtualizeaudible/
 
-CHROME/EDGE: (1.0 published, 1.0.2 pending) https://chromewebstore.google.com/detail/fegkpndgbjchmippoedipimhnedijfla/
+CHROME/EDGE: (1.0 published, 1.0.2 pending) [https://chromewebstore.google.com/detail/fegkpndgbjchmippoedipimhnedijfla/](https://chromewebstore.google.com/detail/devirtualizeaudible/fegkpndgbjchmippoedipimhnedijfla)
 
 ## VERSION HISTORY
 
