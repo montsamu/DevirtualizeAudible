@@ -36,6 +36,8 @@ removal message to let you know the search results have been filtered:
 
 ![After installing the add-on: a search listings page where you can see the (1) actual human-narrated title.](screenshots/Screenshot%202024-03-08%20at%2008-49-04%20Science%20Fiction%20&%20Fantasy%20Audiobooks%20in%20English%20Audible.com%201280x800.png)
 
+(Note that in version 1.0.2 the message includes the *number* of titles that have been filtered, too.)
+
 ## LINKS
 
 FIREFOX: (1.0.2 published) https://addons.mozilla.org/en-US/firefox/addon/devirtualizeaudible/
