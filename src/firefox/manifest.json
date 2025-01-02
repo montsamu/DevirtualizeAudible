@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "DevirtualizeAudible",
-  "version": "1.0.2",
+  "version": "1.0.3",
 
   "description": "Removes 'Virtual Voice' narrations from product listings at Audible.",
 

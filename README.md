@@ -49,6 +49,7 @@ CHROME/EDGE: (1.0.2 published) [https://chromewebstore.google.com/detail/fegkpnd
 * 1.0 - Initial release which silently removed titles without a message
 * 1.0.1 - Added a generic removal message without a count
 * 1.0.2 -- Includes count of elements removed and some basic sanity checks before actions
+* 1.0.3 -- Also filter out "voice replica" titles and allow quick "devirtualize=no" param
 
 ## BUILD/TEST
 
