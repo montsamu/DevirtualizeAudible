@@ -36,13 +36,13 @@ removal message to let you know the search results have been filtered:
 
 ![After installing the add-on: a search listings page where you can see the (1) actual human-narrated title.](screenshots/Screenshot%202024-03-08%20at%2008-49-04%20Science%20Fiction%20&%20Fantasy%20Audiobooks%20in%20English%20Audible.com%201280x800.png)
 
-(Note that in version 1.0.2 the message includes the *number* of titles that have been filtered, too.)
+(Note that since version 1.0.2 the message includes the *number* of titles that have been filtered, too.)
 
 ## LINKS
 
-FIREFOX: (1.0.3 published) https://addons.mozilla.org/en-US/firefox/addon/devirtualizeaudible/
+FIREFOX: (1.0.4 published) https://addons.mozilla.org/en-US/firefox/addon/devirtualizeaudible/
 
-CHROME/EDGE: (1.0.3 published) [https://chromewebstore.google.com/detail/fegkpndgbjchmippoedipimhnedijfla/](https://chromewebstore.google.com/detail/devirtualizeaudible/fegkpndgbjchmippoedipimhnedijfla)
+CHROME/EDGE: (1.0.4 published) [https://chromewebstore.google.com/detail/fegkpndgbjchmippoedipimhnedijfla/](https://chromewebstore.google.com/detail/devirtualizeaudible/fegkpndgbjchmippoedipimhnedijfla)
 
 ## VERSION HISTORY
 
@@ -50,6 +50,7 @@ CHROME/EDGE: (1.0.3 published) [https://chromewebstore.google.com/detail/fegkpnd
 * 1.0.1 - Added a generic removal message without a count
 * 1.0.2 -- Includes count of elements removed and some basic sanity checks before actions
 * 1.0.3 -- Also filter out "voice replica" titles and allow quick "devirtualize=no" param
+* 1.0.4 -- Also filter out "AI Voice" titles
 
 ## BUILD/TEST
 
@@ -62,7 +63,7 @@ cp -R src/common/* dist/firefox
 bsdtar -a -cvf dist/firefox.zip LICENSE PRIVACY -C `pwd`/dist/firefox/ js icons manifest.json
 ```
 
-Download at [downloads/DevirtualizeAudible-ff-1.0.3.zip](downloads/DevirtualizeAudible-ff-1.0.3.zip) to try out in Developer mode. For Firefox, this means navigating to "about:debugging", clicking "This Firefox", and clicking "Load Temporary Add-on". (This has to be repeated each restart of Firefox until you download it from the official marketplace.)
+Download at [downloads/DevirtualizeAudible-ff-1.0.4.zip](downloads/DevirtualizeAudible-ff-1.0.4.zip) to try out in Developer mode. For Firefox, this means navigating to "about:debugging", clicking "This Firefox", and clicking "Load Temporary Add-on". (This has to be repeated each restart of Firefox until you download it from the official marketplace.)
 
 ### Chrome/Edge
 
@@ -73,4 +74,4 @@ cp -R src/common/* dist/chrome
 bsdtar -a -cvf dist/chrome.zip LICENSE PRIVACY -C `pwd`/dist/chrome/ js icons html manifest.json
 ```
 
-Download at [downloads/DevirtualizeAudible-chrome-1.0.3.zip](downloads/DevirtualizeAudible-chrome-1.0.3.zip) to try out in Developer mode. For Edge, this means extracting the ZIP to a folder, navigating to "edge://extensions", selecting the "Developer mode" slider, and clicking "Load unpacked" and selecting the folder containing the extension files. (This will generate a warning on each restart of Edge until you can download it from the official marketplace.)
+Download at [downloads/DevirtualizeAudible-chrome-1.0.4.zip](downloads/DevirtualizeAudible-chrome-1.0.4.zip) to try out in Developer mode. For Edge, this means extracting the ZIP to a folder, navigating to "edge://extensions", selecting the "Developer mode" slider, and clicking "Load unpacked" and selecting the folder containing the extension files. (This will generate a warning on each restart of Edge until you can download it from the official marketplace.)
