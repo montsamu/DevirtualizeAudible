@@ -7,7 +7,12 @@ if ( -1 != ["/newreleases","/search"].indexOf(u.pathname) ) {
   narratorLabelsClone = [...narratorLabels];
 
   for (i=0;i<narratorLabelsClone.length;i++) {
-    if( narratorLabelsClone[i].textContent.trim().match(/^Narrated by:( |\n)*Virtual Voice/) || narratorLabelsClone[i].textContent.trim().match(/^Narrated by:( |\n)*.* voice replica/) ) {
+    if( narratorLabelsClone[i].textContent.trim().match(/^Narrated by:( |\n)*Virtual Voice/)
+        || narratorLabelsClone[i].textContent.trim().match(/^Narrated by:( |\n)*.* voice replica/)
+        || narratorLabelsClone[i].textContent.trim().match(/^Narrated by:( |\n)*AI Voice/)
+        || narratorLabelsClone[i].textContent.trim().match(/^Narrated by:( |\n)*AI Narrator/)
+        || narratorLabelsClone[i].textContent.trim().match(/^Narrated by:( |\n)*Synthesized Voice/)
+      ) {
       removalTargetElement = narratorLabelsClone[i].parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement;
       if ("UL"==removalTargetElement.parentElement.nodeName) {
         removalTargetElement.remove();
