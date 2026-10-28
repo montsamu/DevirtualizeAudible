@@ -1,16 +1,23 @@
 {
   "manifest_version": 3,
   "name": "DevirtualizeAudible",
-  "version": "1.0.4",
+  "version": "1.3.0",
 
-  "description": "Removes 'Virtual Voice' narrations from product listings at Audible.",
-  "action" : {
-    "default_icon": "icons/Devirtualizer.png",
-    "default_popup": "html/Devirtualizer.html"
+  "description": "Removes AI-narrated titles (Virtual Voice, AI Voice, voice replica and similar) from Audible listings.",
+
+  "icons": {
+    "128": "icons/Devirtualizer.png"
   },
+
   "content_scripts": [
     {
-      "matches": ["*://*.audible.com/*"],
+      "matches": [
+        "*://*.audible.com/*",
+        "*://*.audible.co.uk/*",
+        "*://*.audible.ca/*",
+        "*://*.audible.com.au/*",
+        "*://*.audible.in/*"
+      ],
       "js": ["js/devirtualizeAudible.js"]
     }
   ]
