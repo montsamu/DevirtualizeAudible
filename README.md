@@ -58,9 +58,9 @@ removal message to let you know the search results have been filtered:
 
 ## LINKS
 
-FIREFOX: (1.0.4 published) https://addons.mozilla.org/en-US/firefox/addon/devirtualizeaudible/
+FIREFOX: (1.3.0 published) https://addons.mozilla.org/en-US/firefox/addon/devirtualizeaudible/
 
-CHROME/EDGE: (1.0.4 published) [https://chromewebstore.google.com/detail/fegkpndgbjchmippoedipimhnedijfla/](https://chromewebstore.google.com/detail/devirtualizeaudible/fegkpndgbjchmippoedipimhnedijfla)
+CHROME/EDGE: (1.0.2 published, 1.3.0 pending) [https://chromewebstore.google.com/detail/fegkpndgbjchmippoedipimhnedijfla/](https://chromewebstore.google.com/detail/devirtualizeaudible/fegkpndgbjchmippoedipimhnedijfla)
 
 ## VERSION HISTORY
 
